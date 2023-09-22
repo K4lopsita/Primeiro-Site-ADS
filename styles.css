@@ -1,0 +1,146 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+/* Definindo a cor do fundo do cabeçalho e definindo um tamanho para a borda*/
+header{
+    background-image: url(bg.jpg);
+    padding: 5%;
+    
+}
+/* Estilização das l */
+nav{
+    position: absolute;
+    right: 10%;
+    top: center;
+}
+/* Espaçamento das opções do menu*/
+nav li{
+    display: inline;
+    margin: 0 0 0 15;
+}
+/* Estilização da lista, definindo cor, retirando sublinhado, colocando em negrito e tamanho da fonte*/
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.5s;
+}
+/* Estilização do link quando o cursor estiver em cima */
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.logo_caixa{
+
+    width: 80%;
+    margin: auto;
+}
+/* Estilização da largura da logo*/
+.logo{
+    position: relative;
+    width: 40%;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+/*Sobre a pizzaria Seu Pizza*/
+.pizza{
+    width: 100px;
+    float: left;
+    margin: 0 20 0 0;
+    padding-left: 5%;
+}
+.titulo-pizza{
+    text-align: center;
+    clear: left;
+    font-size: 3em;
+    margin: 0;
+    padding: 50px 0 30px 0;
+}
+.sobre-pizzaria{
+    background-color: #ffd684;
+    width: auto;
+    padding-bottom: 50px;
+}
+.titulo-padrao{
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding: 30px 0 30px 0;
+}
+/*Estilização da seção do nosso estabelecimento*/
+.mapa{
+    text-align: center;
+    background: linear-gradient(#ffd684,orange);
+    padding-bottom: 50px;
+}
+/*Estilização da seção beneficios*/
+.beneficios{
+    background-color: orange;
+    padding: 3px;
+}
+.conteudo-beneficios{
+    width: 100%;
+}
+.titulo-beneficios{
+    text-align: center;
+    font-size: 3em;
+}
+.lista-beneficios{
+    list-style: " 🍕 ";
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30%;
+}
+.lista-beneficios li{
+    line-height: 1.5;
+}
+.lista-beneficios li:before{
+    content: " - ";
+}
+.lista-beneficios li:first-child{
+    font-weight: bold;
+}
+.gato-img{
+    width: 150px;
+    box-shadow: 10px 10px 5px 0 black;
+    opacity: 1;
+    transition: 400ms;
+}
+.gato-img:hover{
+    opacity: 0.7;
+}
+.video{
+    width: 560px;
+    display: block;
+    margin: 20 auto;
+}
+
+footer{
+    background-image: url(bg.jpg);
+    text-align: center;
+    margin: auto;
+    padding: 40px 0 40px 0;
+}
+
+.logo_footer{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.copyright{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 20px auto;
+}
