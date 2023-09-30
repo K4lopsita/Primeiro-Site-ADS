@@ -144,3 +144,138 @@ footer{
     text-align: center;
     margin: 20px auto;
 }
+
+/*Cardapio*/
+.cardapio h1{
+    text-align: center;
+    font-size: 2em;
+}
+/* Estilize o menu como desejado */
+.ul1{
+    width: 500;
+    height: 350;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid rgb(255, 94, 0) 5px;
+    margin: 20px;
+    padding: 0%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.ul1:hover{
+    transform: scale(1.1);
+    color: rgb(255, 94, 0);
+}
+.mussarela{
+    font-weight: bold;
+    list-style: none; 
+    font-size: 1.5em;    
+}
+.sub-mussarela{
+    list-style: none; 
+    font-weight: lighter; 
+    font-size: medium;
+    margin: 20px;
+}
+.pizza-mussarela{
+    list-style: none; 
+    width: 120px; 
+    margin: 20px;
+}
+.preco-mussarela{
+    list-style: none; 
+    font-weight: bold;
+    font-size: 1.5em; 
+    margin: 20px; 
+}
+
+.ul2{
+    width: 500;
+    height: 350;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid rgb(255, 94, 0) 5px;
+    margin: 20px;
+    padding: 0%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.ul2:hover{
+    transform: scale(1.1);
+    color: rgb(255, 94, 0);
+}
+.frango{
+    font-weight: bold;
+    list-style: none; 
+    font-size: 1.5em;    
+}
+.sub-frango{
+    list-style: none; 
+    font-weight: lighter; 
+    font-size: medium;
+    margin: 20px;
+}
+.pizza-frango{
+    list-style: none; 
+    width: 120px; 
+    margin: 20px;
+}
+.preco-frango{
+    list-style: none; 
+    font-weight: bold;
+    font-size: 1.5em;  
+    margin: 20px;
+}
+
+.ul3{
+    width: 500;
+    height: 350;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid rgb(255, 94, 0) 5px;
+    margin: 20px;
+    padding: 0%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.ul3:hover{
+    transform: scale(1.1);
+    color: rgb(255, 94, 0);
+}
+.calabresa{
+    font-weight: bold;
+    list-style: none; 
+    font-size: 1.5em;    
+}
+.sub-calabresa{
+    list-style: none; 
+    font-weight: lighter; 
+    font-size: medium;
+    margin: 20px;
+}
+.pizza-calabresa{
+    list-style: none; 
+    width: 120px; 
+    margin: 20px;
+}
+.preco-calabresa{
+    list-style: none; 
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 20px;
+}
+.class-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
